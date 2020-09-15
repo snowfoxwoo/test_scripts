@@ -33,20 +33,4 @@ while 1:
         json.dump(data, outfile)
 
 
-
-
-
-
-
-    # # checking if file already exist
-    # if not os.path.exists('backup/'+zip_file_name):
-    #     # changing file name without spaces
-    #     os.rename(original_name, file_name)
-    #     # creating zip file using system command
-    #     os.system("zip "+zip_file_name+" "+file_name)
-    #     #moving zip file in backup directory using system command
-    #     os.system("mv "+zip_file_name+" backup")
-    #     # changing filename to its original name
-    #     os.rename(file_name, original_name)
-
     time.sleep(1)
